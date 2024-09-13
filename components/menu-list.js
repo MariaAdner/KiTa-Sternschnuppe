@@ -31,11 +31,21 @@ export default function MenuList() {
       <Link href="/neuigkeiten">
         <MenuLink>Neuigkeiten</MenuLink>
       </Link>
-      <MenuLink>Termine</MenuLink>
-      <MenuLink>Über uns</MenuLink>
-      <MenuLink>Essen</MenuLink>
-      <MenuLink>Kontakt</MenuLink>
-      <MenuLink>Downloads</MenuLink>
+      <Link href="/termine">
+        <MenuLink>Termine</MenuLink>
+      </Link>
+      <Link href="/about">
+        <MenuLink>Über uns</MenuLink>
+      </Link>
+      <Link href="/essen">
+        <MenuLink>Essen</MenuLink>
+      </Link>
+      <Link href="/kontakt">
+        <MenuLink>Kontakt</MenuLink>
+      </Link>
+      <Link href="/downloads">
+        <MenuLink>Downloads</MenuLink>
+      </Link>
     </Menu>
   );
 }
